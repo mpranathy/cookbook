@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <!--meta-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="../cook_book/js/slide.js"></script>
+    <script src="../cook_book/js/filter.js"></script>
+    <!--title-->
+    <title>Learn by Videos</title>
+    <!--icon-->
+    <link rel="shortcut icon" href="img/icon.png">
+    <!--stylesheet-->
+    <link rel="stylesheet" href="../cook_book/css/homestyle.css">
+    <link rel="stylesheet" href="../cook_book/css/video.css">
+    </head>
+    <body>
+      <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+                <a class="navbar-brand" href="#"><span><img src="img/icon.png" height="30px" width="30px" alt="logo"></span>  Cook Book</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="home.html"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-search"></span>  Category <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="videos.html">Videos</a></li>
+                      <li><a href="book.html">Books</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="home.html#about"><span class="glyphicon glyphicon-user"></span>  About us</a></li>
+                  <li><a href="#contact"><span class="glyphicon glyphicon-phone-alt"></span>  Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+       <!-- MAIN (Center website) -->
+<div class="main">
+
+    <h1>Pick Your Menu</h1>
+    <hr>
+    
+    
+    
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Show all Recipies</button>
+      <button class="btn" onclick="filterSelection('breakfast')"> Breakfast Recipies</button>
+      <button class="btn" onclick="filterSelection('lunch')"> Lunch Recipies</button>
+      <button class="btn" onclick="filterSelection('snacks')"> Snack Recipies</button>
+    </div>
+    <h2>Choose Your favourite!!</h2>
+   
+    <div class="row">
+      <div class="column breakfast">
+        <div class="content">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                <img src="../cook_book/img/breakfast3.jpg" alt="Breakfast" style="width:100%;height:50%">
+                <div class="container">
+                  <h4><b> Ingredients</b></h4> 
+                  <ul>
+                    <li>Rice</li>
+                    <li>Carrot</li>
+                    <li>Beans</li>
+                    <li>Oil</li>
+                    <li>Onion</li>
+                  </ul>
+              
+              </div>
+                  </div>
+                  <div class="flip-card-back">
+                   
+              <video width="100%" height="100%" controls>
+                <source src="../cook_book/videos/recipies.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class="column breakfast">
+        <div class="content">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                   
+                <img src="../cook_book/img/breakfast2.jpg" alt="Breakfast" style="width:100%;height:50%">
+                <div class="container">
+                  <h4><b>Ingredients</b></h4> 
+                  <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                  </ul>
+              
+              </div>
+                  </div>
+                  <div class="flip-card-back">
+                   
+              <video width="100%" height="100%" controls>
+                <source src="../cook_book/videos/recipies.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class="column breakfast">
+        <div class="content">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                   
+                <img src="../cook_book/img/breakfast.jpg" alt="Breakfast" style="width:100%;height:50%">
+                <div class="container">
+                  <h4><b>Ingredients</b></h4> 
+                  <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                  </ul>
+              
+              </div>
+                  </div>
+                  <div class="flip-card-back">
+                   
+              <video width="100%" height="100%" controls>
+                <source src="../cook_book/videos/recipies.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+      
+      <div class="column lunch">
+        <div class="content">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                   
+                <img src="../cook_book/img/friedrice.jpg" alt="Lunch" style="width:100%;height:50%">
+                <div class="container">
+                  <h4><b>Ingredients</b></h4> 
+                  <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                  </ul>
+              
+              </div>
+                  </div>
+                  <div class="flip-card-back">
+                   
+              <video width="100%" height="100%" controls>
+                <source src="../cook_book/videos/recipies.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class="column lunch">
+        <div class="content">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                   
+                <img src="../cook_book/img/lunch.jpg" alt="Lunch" style="width:100%;height:50%">
+                <div class="container">
+                  <h4><b>Ingredients</b></h4> 
+                  <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                  </ul>
+              
+              </div>
+                  </div>
+                  <div class="flip-card-back">
+                   
+              <video width="100%" height="100%" controls>
+                <source src="../cook_book/videos/recipies.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class="column lunch">
+        <div class="content">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                   
+                <img src="../cook_book/img/lunch3.jpg" alt="Lunch" style="width:100%;height:50%">
+                <div class="container">
+                  <h4><b>Ingredients</b></h4> 
+                  <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                  </ul>
+              
+              </div>
+                  </div>
+                  <div class="flip-card-back">
+                   
+              <video width="100%" height="100%" controls>
+                <source src="../cook_book/videos/recipies.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    
+      <div class="column snacks">
+        <div class="content">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                   
+                <img src="../cook_book/img/snack1.jpg" alt="Snack" style="width:100%;height:50%">
+                <div class="container">
+                  <h4><b>Ingredients</b></h4> 
+                  <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                  </ul>
+              
+              </div>
+                  </div>
+                  <div class="flip-card-back">
+                   
+              <video width="100%" height="100%" controls>
+                <source src="../cook_book/videos/recipies.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class="column snacks">
+        <div class="content">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                   
+                <img src="../cook_book/img/snack2.jpg" alt="Snack" style="width:100%;height:50%">
+                <div class="container">
+                  <h4><b>Ingredients</b></h4> 
+                  <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                  </ul>
+              
+              </div>
+                  </div>
+                  <div class="flip-card-back">
+                   
+              <video width="100%" height="100%" controls>
+                <source src="../cook_book/videos/recipies.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+      <div class="column snacks">
+        <div class="content">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                   
+                <img src="../cook_book/img/snack3.jpg" alt="Snack" style="width:100%;height:50%">
+                <div class="container">
+                  <h4><b>Ingredients</b></h4> 
+                  <ul>
+                    <li>Coffee</li>
+                    <li>Tea</li>
+                    <li>Milk</li>
+                  </ul>
+              
+              </div>
+                  </div>
+                  <div class="flip-card-back">
+                   
+              <video width="100%" height="100%" controls>
+                <source src="../cook_book/videos/recipies.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+              </video>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+  
+    </div>
+    
+    
+    </div>
+      
+       <a id="back2Top" title="Back to top" href="#">&#10148;</a>
+
+       <footer>
+        <div id="contact">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-6">
+                     <div id="contact-left">
+                         <h3>COOK BOOK</h3>
+                         <p>Browse it and feel it<br>Choose your special today<br><strong>Happy cooking!</strong></p>
+                         <div id="contact-info">
+                             <address>
+                     <strong>Visit Us:</strong><br>
+                     <address>#7A, 2nd Main Road, IIT Colony, Narayanapuram,
+                         Pallikaranai, Chennai
+                         Tamil Nadu
+                         600100
+                         INDIA
+                     </address>
+                     
+                             <div id="phone">
+                                 <strong>Phone:</strong><span>(91) 9710 739 535</span><br>
+                                 <strong>Fax:</strong><span>(91) 9841 691 232</span><br>
+                                 <strong>Email:</strong><span>http://imco-india.com/</span><br>
+                             </div>
+                               </address>
+                         </div>
+                         <ul class="social">
+                             <li><a href="www.facebook.com" class="social-icon icon-white"><i class="fa  fa-facebook"></i></a></li>
+                             <li><a href="www.twitter.com" class="social-icon icon-white"><i class="fa  fa-twitter"></i></a></li>
+                             <li><a href="www.google-plus.com" class="social-icon icon-white"><i class="fa  fa-google-plus"></i></a></li>
+ 
+ 
+                         </ul>
+ 
+                     </div>
+ 
+                 </div>
+                 <div class="col-md-6">
+                     <div id="contact-right">
+                         <h3>Contact Us</h3>
+                         <form action="#" name="contact" onsubmit="return send()">
+                             <input type="text" name="full name" id="name" placeholder="Full Name" class="form-control" required><span id="error"></span>
+                             <input type="email" name="email" id="mail" placeholder="email address" class="form-control" required><span id="error"></span>
+                             <textarea rows="5" name="message" id="msg" placeholder="Message......" class="form-control" required></textarea>
+                             <div id="send-btn">
+                                 <button type="submit" class="btn btn-lg btn-general btn-white"   title="send">SEND</button>
+                             </div>
+ 
+                         </form>
+ 
+                     </div>
+ 
+                 </div>
+ 
+             </div>
+         </div>
+     </div>
+   </footer>
+    </body>
+</html>

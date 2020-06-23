@@ -1,0 +1,87 @@
+.gallery .container{
+    width: 1000px;
+    margin-left: 250px;
+   
+  
+}
+body{
+    background-image: url('../img/bookbg.jpg');
+    background-attachment: fixed;
+    margin: 0;
+    background-size: contain;
+    
+}
+h2,h3{
+    text-align: center;
+}
+.books img{
+    float: left;
+    display: block;
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    
+}
+
+.gallery{
+    padding: 20px;
+}
+.pagination{
+    width: 100%;
+    text-align: center;
+}
+.pagination div{
+    display: inline;
+
+}
+.pagination .page{
+    color: gray;
+}
+.pagination .next,.pagination .prev{
+   color: aqua;
+   border: 1px solid black;
+   padding: 8px;
+    
+}
+
+.pagination .next.disabled,.pagination .prev.disabled{
+    color: grey;
+    border-color: grey;
+    cursor: none;
+   
+}
+
+.pagination .next,.pagination .prev{
+    cursor: pointer;
+}
+
+.pagination .items .books .show{
+   
+    display: block;
+    
+   
+}
+
+
+.pagination .items .books .hide{
+    display: none;
+}
+
+@media screen and (max-width: 650px) {
+    
+    .books img{
+        width: 500px;
+        height: 500px;
+        padding: 1%;
+    }
+    .gallery .container{
+        margin: 0px;
+    }
+    body{
+        background-size: cover;
+    }
+   .gallery{
+       margin: 0px;
+       padding: 0%;
+   }
+}
